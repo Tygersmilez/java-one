@@ -16,7 +16,6 @@
 
             Scanner input = new Scanner(System.in);
 
-            //%s String %d digit -1
             System.out.printf("%s%n%s%n %s%n %s%n",
                     "Enter the integer grades in the range 0-100.",
                     "Type the end-of-file indicator to terminate input:",
@@ -38,7 +37,7 @@
                 if (grade > 100) {
                     System.out.println("grades must be between 0 and 100");
                 }
-                // 200/10 20
+               
                 switch (grade / 10) {
                     case 9:
                     case 10:
@@ -69,7 +68,6 @@
                 }
             }
 
-// && ||  boolean & | ^
             if (gradeCounter != 0) {
                 // casting double to int and promoting int to double 0.9
                 double average = (double) total / gradeCounter;
@@ -86,11 +84,5 @@
             } else {
                 System.out.println("No grades were entered");
             }
-
-
-//        if (gradeCounter !=4 || gradeCounter <5){
-//            System.out.println("Grades were entered with 4 grades");
-//        }
-//29 30 22 21
         }
     }
